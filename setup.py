@@ -23,7 +23,7 @@ def read(*names, **kwargs):
 
 setup(
     name='multiline-log-formatter',
-    version='0.1.0',
+    version='0.1.7',
     license='BSD',
     description='Python logging formatter that prefix multiline log message and trackebacks.',
     long_description='%s\n%s' % (
@@ -57,7 +57,7 @@ setup(
         'Topic :: Utilities',
     ],
     keywords=[
-        # eg: 'keyword1', 'keyword2', 'keyword3',
+        'logs', 'logging',
     ],
     install_requires=[
         # eg: 'aspectlib==1.1.1', 'six>=1.7',
