@@ -25,7 +25,7 @@ project = u'Python Multiline Log Formatter'
 year = u'2016'
 author = u'Peter Lauri'
 copyright = '{0}, {1}'.format(year, author)
-version = release = u'0.1.7'
+version = release = u'0.1.8'
 
 pygments_style = 'trac'
 templates_path = ['.']

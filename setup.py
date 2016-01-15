@@ -23,7 +23,7 @@ def read(*names, **kwargs):
 
 setup(
     name='multiline-log-formatter',
-    version='0.1.7',
+    version='0.1.8',
     license='BSD',
     description='Python logging formatter that prefix multiline log message and trackebacks.',
     long_description='%s\n%s' % (
