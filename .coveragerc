@@ -1,9 +1,11 @@
 [paths]
-source = src
+source =
+   src/multiline_formatter
+   */site-packages/multiline_formatter
 
 [run]
 branch = True
-source = src
+source = multiline_formatter
 parallel = true
 
 [report]
