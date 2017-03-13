@@ -7,6 +7,8 @@ class MultilineMessagesFormatter(logging.Formatter):
     multiline_marker = '... (%(process)d:%(threadName)s)'
     multiline_fmt = multiline_marker + ' : %(message)s'
 
+    new_not_used = None
+
     def format(self, record):
         """
         This is mostly the same as logging.Formatter.format except for the splitlines() thing.
